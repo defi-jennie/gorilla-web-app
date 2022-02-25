@@ -23,6 +23,11 @@ export type ENV =
 
 export const ENDPOINTS = [
   {
+    name: "localnet" as ENV,
+    endpoint: "http://127.0.0.1:8899",
+    chainID: ChainID.Devnet,
+  },
+  {
     name: "mainnet-beta" as ENV,
     endpoint: "https://solana-api.projectserum.com/",
     chainID: ChainID.MainnetBeta,
@@ -35,11 +40,6 @@ export const ENDPOINTS = [
   {
     name: "devnet" as ENV,
     endpoint: clusterApiUrl("devnet"),
-    chainID: ChainID.Devnet,
-  },
-  {
-    name: "localnet" as ENV,
-    endpoint: "http://127.0.0.1:8899",
     chainID: ChainID.Devnet,
   },
 ];
