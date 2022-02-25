@@ -37,12 +37,14 @@
     "bs58": "^4.0.1",
     "buffer-layout": "^1.2.0",
     "craco-less": "^1.20.0",
+    "css-loader": "^6.6.0",
     "eventemitter3": "^4.0.7",
     "jazzicon": "^1.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "style-loader": "^3.3.1",
     "typescript": "^4.0.0"
   },
   "devDependencies": {
