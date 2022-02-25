@@ -1,11 +1,7 @@
 {
-  "name": "dapp-scaffold",
+  "name": "dov-bros",
   "version": "0.1.0",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/solana-labs/dapp-scaffold"
-  },
   "homepage": ".",
   "scripts": {
     "start": "craco start",
@@ -17,7 +13,7 @@
     "localnet:up": "solana-test-validator --bpf-program BpfProgram1111111111111111111111111111111111 program/target/deploy/bpf_program_template.so --reset",
     "localnet:logs": "solana logs -u localhost",
     "predeploy": "git pull --ff-only && yarn && yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "deploy:ar": "arweave deploy-dir build --key-file ",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\""
   },
@@ -46,7 +42,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "5.0.0",
     "typescript": "^4.0.0"
   },
   "devDependencies": {
