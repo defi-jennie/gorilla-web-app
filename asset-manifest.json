@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gorilla-web-app/static/css/main.e7d786df.chunk.css",
+    "main.js": "/gorilla-web-app/static/js/main.4a349dd7.chunk.js",
+    "runtime-main.js": "/gorilla-web-app/static/js/runtime-main.088f338f.js",
+    "static/js/2.1c275862.chunk.js": "/gorilla-web-app/static/js/2.1c275862.chunk.js",
+    "index.html": "/gorilla-web-app/index.html",
+    "precache-manifest.a1ac5ea9f7bb3d23cff58d105fa3648f.js": "/gorilla-web-app/precache-manifest.a1ac5ea9f7bb3d23cff58d105fa3648f.js",
+    "service-worker.js": "/gorilla-web-app/service-worker.js",
+    "static/js/2.1c275862.chunk.js.LICENSE.txt": "/gorilla-web-app/static/js/2.1c275862.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.088f338f.js",
+    "static/js/2.1c275862.chunk.js",
+    "static/css/main.e7d786df.chunk.css",
+    "static/js/main.4a349dd7.chunk.js"
+  ]
+}
