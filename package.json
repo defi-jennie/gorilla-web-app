@@ -1,11 +1,7 @@
 {
-  "name": "dapp-scaffold",
+  "name": "dov-bros",
   "version": "0.1.0",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/solana-labs/dapp-scaffold"
-  },
   "homepage": ".",
   "scripts": {
     "start": "craco start",

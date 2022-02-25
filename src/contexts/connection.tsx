@@ -22,26 +22,26 @@ export type ENV =
   | "localnet";
 
 export const ENDPOINTS = [
-  {
-    name: "localnet" as ENV,
-    endpoint: "http://127.0.0.1:8899",
-    chainID: ChainID.Devnet,
-  },
-  {
-    name: "mainnet-beta" as ENV,
-    endpoint: "https://solana-api.projectserum.com/",
-    chainID: ChainID.MainnetBeta,
-  },
-  {
-    name: "testnet" as ENV,
-    endpoint: clusterApiUrl("testnet"),
-    chainID: ChainID.Testnet,
-  },
+  // {
+  //   name: "localnet" as ENV,
+  //   endpoint: "http://127.0.0.1:8899",
+  //   chainID: ChainID.Devnet,
+  // },
   {
     name: "devnet" as ENV,
     endpoint: clusterApiUrl("devnet"),
     chainID: ChainID.Devnet,
   },
+  // {
+  //   name: "mainnet-beta" as ENV,
+  //   endpoint: "https://solana-api.projectserum.com/",
+  //   chainID: ChainID.MainnetBeta,
+  // },
+  // {
+  //   name: "testnet" as ENV,
+  //   endpoint: clusterApiUrl("testnet"),
+  //   chainID: ChainID.Testnet,
+  // },
 ];
 
 const DEFAULT = ENDPOINTS[0].endpoint;
